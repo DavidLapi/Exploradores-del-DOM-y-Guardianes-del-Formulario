@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Validado</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+
+    <form id="formulario">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre"  />
+
+        <br><br>
+
+        <label for="email">Correo electrónico:</label> 
+        <input  type="email"  id="email" placeholder="ejemplo@correo.com" /> 
+ 
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="errores" style="color: red;"></div> 
+    <div id="mensajeOk" style="color: green;"></div> 
+ 
+    <script src="script.js"></script>
+</body>
+</html>

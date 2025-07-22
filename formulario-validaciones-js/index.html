@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario inteligente</title>
+</head>
+<body>
+    <h1>Formulario con validaciones JavaScript</h1>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label> 
+        <input  type="text"  id="nombre"  placeholder="Escribe  tu nombre"> 
+ 
+        <br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input  type="text"  id="email" placeholder="ejemplo@correo.com"> 
+ 
+        <br><br>
+
+        <label for="edad">Edad:</label> 
+        <input type="text" id="edad" placeholder="Tu edad"> 
+ 
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+        <div id="errores" style="color: rgb(255, 0, 0);"></div> 
+        <div id="mensajeOk" style="color: rgb(0, 255, 0);"></div> 
+ 
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
